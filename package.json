@@ -1,0 +1,25 @@
+{
+  "name": "nodetodo",
+  "version": "1.0.0",
+  "description": "A test application to show understanding of Node and how it works.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YetiAlmighty/NodeTodo.git"
+  },
+  "author": "Kyle Thomas (YetiAlmighty)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YetiAlmighty/NodeTodo/issues"
+  },
+  "homepage": "https://github.com/YetiAlmighty/NodeTodo#readme",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "ejs": "^2.5.6",
+    "express": "^4.15.3",
+    "mongoose": "^4.10.5"
+  }
+}
