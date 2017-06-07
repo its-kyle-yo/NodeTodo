@@ -9,4 +9,4 @@ var todoSchema = new Schema({
 });
 
 var ToDos = mongoose.model('Todos', todoSchema);
-module.exports = Todos;
+module.exports = ToDos;
