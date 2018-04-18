@@ -17,6 +17,10 @@ app.listen(port);
 console.log(`App is live on localhost:${port}`);
 console.log('Try out one of these');
 
+// Super awesome reminder: Goes through all defined routes and spits out a 
+// reminder for the available methods e.g. GET: /api/todos/:username 
+// without manually having to add it to a list somewhere it dynamically will list all available routes 
+// at startup 
 app._router.stack.forEach(item => {
     if(item.route !== undefined
         && item.route.path !== undefined){
